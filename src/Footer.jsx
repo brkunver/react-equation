@@ -1,10 +1,12 @@
 import React from "react";
 import {Container } from "reactstrap"
-
+import "./style/footer.css"
 let Footer = (props) => {
   return (
-    <Container>
-      <div>
+    
+      <Container >
+      <p className="footer-text">
+       
         Icons made by{" "}
         <a
           href="https://www.flaticon.com/authors/icongeek26"
@@ -16,8 +18,11 @@ let Footer = (props) => {
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com
         </a>
-      </div>
+       
+      </p>
     </Container>
+  
+    
   );
 };
 
