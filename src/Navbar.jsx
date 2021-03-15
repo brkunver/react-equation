@@ -29,7 +29,6 @@ const NavigationBar = (props) => {
               <NavLink href="https://github.com/brkunver">GitHub</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>{props.dateProp}</NavbarText>
         </Collapse>
       </Navbar>
     </div>

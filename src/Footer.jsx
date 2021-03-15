@@ -1,8 +1,9 @@
 import React from "react";
+import {Container } from "reactstrap"
 
 let Footer = (props) => {
   return (
-    <div>
+    <Container>
       <div>
         Icons made by{" "}
         <a
@@ -16,7 +17,7 @@ let Footer = (props) => {
           www.flaticon.com
         </a>
       </div>
-    </div>
+    </Container>
   );
 };
 
